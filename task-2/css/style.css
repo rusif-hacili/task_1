@@ -1,0 +1,132 @@
+#main header {
+    background-color: #fff;
+    height: 90px;
+}
+
+#main .header .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both
+}
+
+#main .header .container #name {
+    background-color: #4aaaa5;
+    color: #fff;
+    text-decoration: none;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    height: 90px;
+    line-height: 90px;
+}
+
+#main .header .container .menu {
+    padding: 25px;
+    margin-left: 65%;
+}
+
+#main .header .container .menu li {
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#main .header .container .menu li+li::before {
+    content: "|";
+    color: gray;
+    font-size: 10px;
+    margin-right: 13px;
+}
+
+#main .header .container nav .menu li a {
+    color: #999;
+    text-decoration: none
+}
+
+#main .row {
+    width: 66%;
+    background-color: #fff;
+    margin: 40px 280px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: block
+}
+
+#section1 {
+    width: 60%;
+    display: inline-block;
+}
+#main h1 {
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 15px;
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 35px;
+}
+
+#main img {
+    margin-left: 10px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+#main p {
+    color: #777;
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+#main #section2 {
+    width: 30%;
+    display: inline-block;
+}
+
+#main .row_right {
+    background-color: #fff;
+    width: 54%;
+    height: 176px;
+    padding: 11px;
+    display: inline-block;
+    float: right;
+    margin-bottom: 41%;
+    margin-right: 30%;
+    border: 1px solid #ddd;
+}
+
+#main .row_right h2 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #ddd;
+    padding: 15px;
+}
+
+#main .row_right img {
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+#main footer {
+    background-color: #666;
+    color: #ccc;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
+    border-top: 10px solid #4aaaa5;
+}
+
+
